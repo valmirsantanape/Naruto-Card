@@ -7,12 +7,13 @@
 @media screen and (min-width: 992px) {
     .content{
         width: 100%;
-        margin: 0 ;
+        margin: auto ;
     }
   }
   @media screen and (min-width: 300px) {
     .content{
         width: fit-content;
+        margin: auto;
         
     }
     ol.personagens li{
@@ -43,7 +44,7 @@ body{
     font-size: 10pt;
 }
 .content {
-    margin-top: 5px;
+    margin: 5px auto;
     padding: 1rem;
     background-image: linear-gradient(to bottom,#9b212f, #000);
     border-radius: 5px 5px 10px 10px;
