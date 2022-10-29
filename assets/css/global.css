@@ -10,6 +10,11 @@
         margin: 0 auto;
     }
   }
+  @media screen and (max-width: 380px) {
+    .content{
+        margin: 0;
+    }
+  }
 
 body{
     background-image: linear-gradient(to bottom, #e2713f, #000);
