@@ -6,19 +6,25 @@
 
 @media screen and (min-width: 992px) {
     .content{
-        max-width: 992px;
-        margin: 0 auto;
+        width: 100%;
+        margin: 0 ;
     }
   }
-  @media screen and (max-width: 380px) {
+  @media screen and (min-width: 300px) {
     .content{
-        margin: 0;
+        width: fit-content;
+        
+    }
+    ol.personagens li{
+        width: 70%;
+        margin: auto;
     }
   }
 
 body{
+    padding: 0 0 200px 0;
     background-image: linear-gradient(to bottom, #e2713f, #000);
-    padding-bottom: 200px;
+    
 }
 
 .name{
