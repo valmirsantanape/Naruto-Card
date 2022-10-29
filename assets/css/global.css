@@ -12,7 +12,8 @@
   }
 
 body{
-    background-color: #e2713f;
+    background-image: linear-gradient(to bottom, #e2713f, #000);
+    padding-bottom: 200px;
 }
 
 .name{
@@ -31,8 +32,11 @@ body{
     font-size: 10pt;
 }
 .content {
+    margin-top: 5px;
     padding: 1rem;
     background-image: linear-gradient(to bottom,#9b212f, #000);
+    border-radius: 5px 5px 10px 10px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.991);
     
 }
 .content h1{
